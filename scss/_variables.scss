@@ -1,0 +1,22 @@
+//colors
+$clr-background: #f8f9fe;
+$clr-title: #151827;
+$clr-primary: #680262;
+$clr-primary-hover: #490245;
+$clr-body: #85859b;
+$clr-stroke: #cfd1dd;
+$clr-white: #fff;
+
+//styles
+
+$rounding: 16px;
+$stroke: 1px;
+
+//media
+
+$breakpoints: (
+  md: 1024px,
+  sm: 840px,
+  xs: 420px,
+  xxs: 360px
+);

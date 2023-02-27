@@ -1,0 +1,54 @@
+@mixin link {
+  font-size: 16px;
+  letter-spacing: -1%;
+  font-weight: bold;
+}
+
+@mixin text1 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  font-weight: medium;
+  color: $clr-body;
+}
+
+@mixin text2 {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -1%;
+  font-weight: medium;
+  color: $clr-body;
+}
+
+@mixin btn {
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: -1%;
+  font-weight: bold;
+  border: none;
+}
+
+//typography - tablet and mobile
+@mixin h1-small {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@mixin h2-small {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@mixin text1-small {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@mixin text2-small {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+@mixin link-small {
+  font-size: 14px;
+}
